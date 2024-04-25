@@ -1,0 +1,64 @@
+/* CSS for ContactPage - Light Theme with Greyish Background */
+.contact-page {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #f2f2f2; /* Light greyish background */
+    color: #333; /* Dark text color */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-page header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  
+  .contact-page main {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-page .contact-info,
+  .contact-page .feedback-form {
+    flex: 1;
+  }
+  
+  .contact-page .feedback-form form {
+    text-align: left;
+  }
+  
+  .contact-page .feedback-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact-page .feedback-form input[type="text"],
+  .contact-page .feedback-form input[type="email"],
+  .contact-page .feedback-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-page .feedback-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-page .feedback-form button {
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-page .feedback-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  span{
+    color: green;
+}

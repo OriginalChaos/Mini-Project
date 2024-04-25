@@ -1,0 +1,31 @@
+/* CSS for NavBar */
+nav {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 5px 10px;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #777;
+    border-radius: 5px;
+  }
+  
+.login{
+  align-content: right;
+}

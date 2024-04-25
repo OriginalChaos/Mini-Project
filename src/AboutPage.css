@@ -1,0 +1,45 @@
+/* CSS for AboutPage - Light Theme with Green Accents */
+.about-page {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #f9f9f9; /* Light grey background */
+    color: #333; /* Dark text color */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-page h2 {
+    font-size: 2.5rem;
+    color: #007bff; /* Blue color */
+    margin-bottom: 30px;
+  }
+  
+  .about-page p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .about-page p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .about-page p:first-child {
+    font-weight: bold;
+  }
+  
+  .about-page a {
+    color: #007bff; /* Blue color */
+    text-decoration: none;
+  }
+  
+  .about-page a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Set background color of entire webpage */
+  body {
+    background-color: #aaa; /* Light greyish background */
+  }
+  

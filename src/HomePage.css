@@ -1,0 +1,97 @@
+/* HomePage.css */
+
+/* General styles */
+.home {
+    padding: 20px;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Mission Statement section */
+.mission-statement {
+    background-color: #ddd;
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.mission-statement h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+    
+}
+
+.mission-statement p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Testimonials section */
+.testimonials {
+    background-color: #ddd;
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+
+.testimonials h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.testimonials .testimonial {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials .testimonial p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.testimonials .testimonial .author {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Footer section */
+footer {
+    text-align: center;
+    padding: 20px 40px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0;
+}
+span{
+    color: green;
+}

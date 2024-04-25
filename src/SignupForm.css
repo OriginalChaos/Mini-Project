@@ -1,0 +1,47 @@
+/* LoginForm.css and SignupForm.css */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px; /* Add margin to center vertically */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Increase border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    background-color: #f9f9f9; /* Use a light background color */
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+    text-align: center; /* Center the heading */
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container input[type="password"] {
+    width: 100%; /* Set input width to 100% */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+  }
+  
+  .form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
